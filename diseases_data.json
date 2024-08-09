@@ -1,0 +1,1335 @@
+
+
+{"disease_details":[{
+    "fever":[{
+        "age":[
+            {   "agegroup":"1to5",
+                "symptoms":["Fever, Chills, Sweating, Headache"],
+            "Medicine":"Children's Acetaminophen"},
+            
+            
+            {"agegroup":"6to12",
+            "symptoms":["Fever, Chills, Sweating, Muscle Aches"],
+            "Medicine":"Children's Ibuprofen"},
+            
+             {"agegroup":"13to18",
+            "symptoms":["Fever, Headache, Muscle Aches, Fatigue"],
+            "Medicine":"Ibuprofen"},
+             
+             {"agegroup":"19to100",
+            "symptoms":["Fever, Headache, Muscle Aches, Dehydration, Chills, Fatigue, Sweating"],
+            "Medicine":"Acetaminophen"}
+        ]
+    }],
+    
+    
+    
+    "cough":[{
+        "age":[
+            {"agegroup":"1to12",
+            "symptoms":["Cough, Runny Nose, Wheezing, Sore Throat, Congestion"],
+            "Medicine":"Children's Cough Syrup"},
+
+            {"agegroup":"13to18",
+            "symptoms":["Persistent Cough, Sore Throat, Congestion"],
+            "Medicine":"Cough Lozenges"},
+
+            {"agegroup":"19to45",
+            "symptoms":["Persistent Cough, Sore Throat, Congestion"],
+            "Medicine":"Dextromethorphan"},
+
+            {"agegroup":"46to100",
+            "symptoms":["Persistent Cough, Chest Tightness"],
+            "Medicine":"Guaifenesin"}
+        ]
+    }],
+    
+    
+    
+    "cold":[{
+            "age":[
+                {"agegroup":"1to12",
+                "symptoms":["Runny Nose, Sneezing, Cough"],
+                "Medicine":"Children's Antihistamines"},
+                
+                
+                {"agegroup":"12to100",
+                "symptoms":["Runny Nose, Sneezing, Cough"],
+                "Medicine":"Antihistamines"}
+                
+                
+        ]
+    }],
+
+    "malaria":[{
+        "age":[
+            {
+                "agegroup":"1to100",
+                "symptoms":["Fever, Chills, Sweating, Headache"],
+                "Medicine":"Artemisinin-based Combination Therapy"
+            }
+        ]
+    }],
+
+    "Dengu":[{
+        "age":[
+            {
+                "agegroup":"1to100",
+                "symptoms":["High Fever, Severe Headache, Joint Pain"],
+                "Medicine":"Supportive Care"
+            }
+        ]
+    }],
+
+    "Chickenpox":[{
+        "age":[
+            {
+                "agegroup":"1to30",
+                "symptoms":["Itchy Rash, Fever, Fatigue"],
+                "Medicine":"Calamine Lotion"
+            },
+
+            {
+                "agegroup":"31to100",
+                "symptoms":["Itchy Rash, Fever, Fatigue"],
+                "Medicine":"Acyclovir"
+            }
+        ]
+    }],
+
+    "Conjunctivitis":[{
+        "age":[
+            {
+                "agegroup":"1to12",
+                "symptoms":["NRed Eyes, Itching, Tearing"],
+                "Medicine":"Artificial Tears"
+            },
+
+            {
+                "agegroup":"13to100",
+                "symptoms":["Red Eyes, Itching, Tearing"],
+                "Medicine":"Antihistamine Eye Drops"
+            }
+        ]
+    }],
+
+    "Flu":[{
+        "age":[
+            {
+                "agegroup":"1to6",
+                "symptoms":["Fever, Cough, Sore Throat, Runny Nose"],
+                "Medicine":"Children's Acetaminophen"
+            },
+
+            {
+                "agegroup":"6to12",
+                "symptoms":["Fever, Cough, Sore Throat, Fatigue"],
+                "Medicine":"Children's Ibuprofen"
+            },
+
+            {
+                "agegroup":"13to18",
+                "symptoms":["Fever, Cough, Sore Throat, Muscle Aches"],
+                "Medicine":"Ibuprofen"
+            },
+
+            {
+                "agegroup":"19to100",
+                "symptoms":["Fever, Cough, Sore Throat, Muscle Aches, Fatigue"],
+                "Medicine":"Acetaminophen"
+            }
+        ]
+    }],
+
+    "Pneumonia":[{
+        "age":[
+            {
+                "agegroup":"1to12",
+                "symptoms":["Cough, Fever, Rapid Breathing, Chest Pain"],
+                "Medicine":"Amoxicillin"
+            },
+
+            {
+                "agegroup":"13to45",
+                "symptoms":["Cough, Fever, Chest Pain, Fatigue, Shortness of Breath"],
+                "Medicine":"Azithromycin"
+            },
+
+            {
+                "agegroup":"46to100",
+                "symptoms":["Cough, Fever, Chest Pain, Fatigue, Shortness of Breath"],
+                "Medicine":"Levofloxacin"
+            }
+        ]
+    }],
+
+    "Asthma": [{
+        "age": [
+            {
+                "agegroup": "1to12",
+                "symptoms": ["Wheezing", "Shortness of Breath", "Chest Tightness", "Cough"],
+                "Medicine": "Albuterol"
+            },
+            {
+                "agegroup": "13to45",
+                "symptoms": ["Wheezing", "Shortness of Breath", "Chest Tightness", "Cough"],
+                "Medicine": "Inhaled Corticosteroids"
+            },
+            {
+                "agegroup": "46to100",
+                "symptoms": ["Wheezing", "Shortness of Breath", "Chest Tightness", "Cough"],
+                "Medicine": "Long-acting Beta Agonists"
+            }
+        ]
+    }],
+    "Bronchitis": [{
+        "age": [
+            {
+                "agegroup": "1to12",
+                "symptoms": ["Cough", "Mucus Production", "Shortness of Breath", "Fatigue"],
+                "Medicine": "Bronchodilators"
+            },
+            {
+                "agegroup": "13to45",
+                "symptoms": ["Cough", "Mucus Production", "Shortness of Breath", "Fatigue"],
+                "Medicine": "Cough Suppressants"
+            },
+            {
+                "agegroup": "46to100",
+                "symptoms": ["Cough", "Mucus Production", "Shortness of Breath", "Fatigue"],
+                "Medicine": "Antibiotics"
+            }
+        ]
+    }],
+    "Gastroenteritis": [{
+        "age": [
+            {
+                "agegroup": "1to12",
+                "symptoms": ["Diarrhea", "Vomiting", "Stomach Pain", "Fever"],
+                "Medicine": "Oral Rehydration Solutions"
+            },
+            {
+                "agegroup": "13to45",
+                "symptoms": ["Diarrhea", "Vomiting", "Stomach Pain", "Fever"],
+                "Medicine": "Loperamide"
+            },
+            {
+                "agegroup": "46to100",
+                "symptoms": ["Diarrhea", "Vomiting", "Stomach Pain", "Fever"],
+                "Medicine": "Probiotics"
+            }
+        ]
+    }],
+    "Urinary Tract Infection": [{
+        "age": [
+            {
+                "agegroup": "1to12",
+                "symptoms": ["Burning Sensation When Urinating", "Frequent Urination", "Cloudy Urine"],
+                "Medicine": "Amoxicillin"
+            },
+            {
+                "agegroup": "13to45",
+                "symptoms": ["Burning Sensation When Urinating", "Frequent Urination", "Cloudy Urine"],
+                "Medicine": "Nitrofurantoin"
+            },
+            {
+                "agegroup": "46to100",
+                "symptoms": ["Burning Sensation When Urinating", "Frequent Urination", "Cloudy Urine"],
+                "Medicine": "Ciprofloxacin"
+            }
+        ]
+    }],
+    "Sinusitis": [{
+        "age": [
+            {
+                "agegroup": "1to12",
+                "symptoms": ["Nasal Congestion", "Facial Pain", "Headache", "Runny Nose"],
+                "Medicine": "Saline Nasal Spray"
+            },
+            {
+                "agegroup": "13to45",
+                "symptoms": ["Nasal Congestion", "Facial Pain", "Headache", "Runny Nose"],
+                "Medicine": "Decongestants"
+            },
+            {
+                "agegroup": "46to100",
+                "symptoms": ["Nasal Congestion", "Facial Pain", "Headache", "Runny Nose"],
+                "Medicine": "Antibiotics"
+            }
+        ]
+    }],
+    "Tonsillitis": [{
+        "age": [
+            {
+                "agegroup": "1to12",
+                "symptoms": ["Sore Throat", "Difficulty Swallowing", "Fever", "Swollen Tonsils"],
+                "Medicine": "Amoxicillin"
+            },
+            {
+                "agegroup": "13to45",
+                "symptoms": ["Sore Throat", "Difficulty Swallowing", "Fever", "Swollen Tonsils"],
+                "Medicine": "Penicillin"
+            },
+            {
+                "agegroup": "46to100",
+                "symptoms": ["Sore Throat", "Difficulty Swallowing", "Fever", "Swollen Tonsils"],
+                "Medicine": "Clarithromycin"
+            }
+        ]
+    }],
+    "Otitis Media": [{
+        "age": [
+            {
+                "agegroup": "1to12",
+                "symptoms": ["Ear Pain", "Hearing Loss", "Fever", "Irritability"],
+                "Medicine": "Amoxicillin"
+            },
+            {
+                "agegroup": "13to45",
+                "symptoms": ["Ear Pain", "Hearing Loss", "Fever", "Irritability"],
+                "Medicine": "Azithromycin"
+            },
+            {
+                "agegroup": "46to100",
+                "symptoms": ["Ear Pain", "Hearing Loss", "Fever", "Irritability"],
+                "Medicine": "Ceftriaxone"
+            }
+        ]
+    }],
+    "Anemia": [{
+        "age": [
+            {
+                "agegroup": "1to12",
+                "symptoms": ["Fatigue", "Pale Skin", "Weakness", "Shortness of Breath"],
+                "Medicine": "Iron Supplements"
+            },
+            {
+                "agegroup": "13to45",
+                "symptoms": ["Fatigue", "Pale Skin", "Weakness", "Shortness of Breath"],
+                "Medicine": "Ferrous Sulfate"
+            },
+            {
+                "agegroup": "46to100",
+                "symptoms": ["Fatigue", "Pale Skin", "Weakness", "Shortness of Breath"],
+                "Medicine": "Vitamin B12 Injections"
+            }
+        ]
+    }],
+    "Dermatitis": [{
+        "age": [
+            {
+                "agegroup": "1to12",
+                "symptoms": ["Itchy Skin", "Redness", "Swelling", "Rashes"],
+                "Medicine": "Hydrocortisone Cream"
+            },
+            {
+                "agegroup": "13to45",
+                "symptoms": ["Itchy Skin", "Redness", "Swelling", "Rashes"],
+                "Medicine": "Topical Steroids"
+            },
+            {
+                "agegroup": "46to100",
+                "symptoms": ["Itchy Skin", "Redness", "Swelling", "Rashes"],
+                "Medicine": "Antihistamines"
+            }
+        ]
+    }],
+    "Migraine": [{
+        "age": [
+            {
+                "agegroup": "1to12",
+                "symptoms": ["Severe Headache", "Nausea", "Sensitivity to Light", "Vomiting"],
+                "Medicine": "Acetaminophen"
+            },
+            {
+                "agegroup": "13to45",
+                "symptoms": ["Severe Headache", "Nausea", "Sensitivity to Light", "Vomiting"],
+                "Medicine": "Sumatriptan"
+            },
+            {
+                "agegroup": "46to100",
+                "symptoms": ["Severe Headache", "Nausea", "Sensitivity to Light", "Vomiting"],
+                "Medicine": "Ergotamine"
+            }
+        ]
+    }],
+
+    "Cough": [{
+        "age": [
+            {
+                "agegroup": "1to12",
+                "symptoms": ["Persistent Cough", "Sore Throat", "Congestion"],
+                "Medicine": "Children's Cough Syrup"
+            },
+            {
+                "agegroup": "13to45",
+                "symptoms": ["Persistent Cough", "Sore Throat", "Congestion"],
+                "Medicine": "Cough Suppressants"
+            },
+            {
+                "agegroup": "46to100",
+                "symptoms": ["Persistent Cough", "Sore Throat", "Congestion"],
+                "Medicine": "Expectorants"
+            }
+        ]
+    }],
+    "Sore Throat": [{
+        "age": [
+            {
+                "agegroup": "1to12",
+                "symptoms": ["Painful Swallowing", "Red Throat", "Fever"],
+                "Medicine": "Children's Acetaminophen"
+            },
+            {
+                "agegroup": "13to45",
+                "symptoms": ["Painful Swallowing", "Red Throat", "Fever"],
+                "Medicine": "Lozenges"
+            },
+            {
+                "agegroup": "46to100",
+                "symptoms": ["Painful Swallowing", "Red Throat", "Fever"],
+                "Medicine": "Gargling Salt Water"
+            }
+        ]
+    }],
+    "Ear Infection (Otitis Media)": [{
+        "age": [
+            {
+                "agegroup": "1to12",
+                "symptoms": ["Ear Pain", "Fever", "Hearing Loss"],
+                "Medicine": "Amoxicillin"
+            },
+            {
+                "agegroup": "13to45",
+                "symptoms": ["Ear Pain", "Fever", "Hearing Loss"],
+                "Medicine": "Azithromycin"
+            },
+            {
+                "agegroup": "46to100",
+                "symptoms": ["Ear Pain", "Fever", "Hearing Loss"],
+                "Medicine": "Ceftriaxone"
+            }
+        ]
+    }],
+
+    "Allergic Rhinitis (Hay Fever)": [{
+        "age": [
+            {
+                "agegroup": "1to12",
+                "symptoms": ["Sneezing", "Itchy Eyes", "Runny Nose"],
+                "Medicine": "Antihistamines"
+            },
+            {
+                "agegroup": "13to45",
+                "symptoms": ["Sneezing", "Itchy Eyes", "Runny Nose"],
+                "Medicine": "Intranasal Corticosteroids"
+            },
+            {
+                "agegroup": "46to100",
+                "symptoms": ["Sneezing", "Itchy Eyes", "Runny Nose"],
+                "Medicine": "Leukotriene Modifiers"
+            }
+        ]
+    }],
+    "Conjunctivitis (Pink Eye)": [{
+        "age": [
+            {
+                "agegroup": "1to12",
+                "symptoms": ["Red Eyes", "Itchy Eyes", "Discharge"],
+                "Medicine": "Antibiotic Eye Drops"
+            },
+            {
+                "agegroup": "13to45",
+                "symptoms": ["Red Eyes", "Itchy Eyes", "Discharge"],
+                "Medicine": "Antiviral Eye Drops"
+            },
+            {
+                "agegroup": "46to100",
+                "symptoms": ["Red Eyes", "Itchy Eyes", "Discharge"],
+                "Medicine": "Antihistamine Eye Drops"
+            }
+        ]
+    }],
+    "Strep Throat": [{
+        "age": [
+            {
+                "agegroup": "1to12",
+                "symptoms": ["Sore Throat", "Fever", "Swollen Lymph Nodes"],
+                "Medicine": "Amoxicillin"
+            },
+            {
+                "agegroup": "13to45",
+                "symptoms": ["Sore Throat", "Fever", "Swollen Lymph Nodes"],
+                "Medicine": "Penicillin"
+            },
+            {
+                "agegroup": "46to100",
+                "symptoms": ["Sore Throat", "Fever", "Swollen Lymph Nodes"],
+                "Medicine": "Cephalexin"
+            }
+        ]
+    }],
+    "Headache": [{
+        "age": [
+            {
+                "agegroup": "1to12",
+                "symptoms": ["Head Pain", "Sensitivity to Light", "Nausea"],
+                "Medicine": "Children's Acetaminophen"
+            },
+            {
+                "agegroup": "13to45",
+                "symptoms": ["Head Pain", "Sensitivity to Light", "Nausea"],
+                "Medicine": "Ibuprofen"
+            },
+            {
+                "agegroup": "46to100",
+                "symptoms": ["Head Pain", "Sensitivity to Light", "Nausea"],
+                "Medicine": "Acetaminophen"
+            }
+        ]
+    }],
+
+    "Tension Headache": [{
+        "age": [
+            {
+                "agegroup": "1to12",
+                "symptoms": ["Head Pain", "Tenderness in Scalp", "Muscle Tension"],
+                "Medicine": "Children's Acetaminophen"
+            },
+            {
+                "agegroup": "13to45",
+                "symptoms": ["Head Pain", "Tenderness in Scalp", "Muscle Tension"],
+                "Medicine": "Ibuprofen"
+            },
+            {
+                "agegroup": "46to100",
+                "symptoms": ["Head Pain", "Tenderness in Scalp", "Muscle Tension"],
+                "Medicine": "Acetaminophen"
+            }
+        ]
+    }],
+
+    "Cluster Headache": [{
+        "age": [
+            {
+                "agegroup": "1to12",
+                "symptoms": ["Severe Head Pain", "Redness in Eye", "Nasal Congestion"],
+                "Medicine": "Consult Pediatrician"
+            },
+            {
+                "agegroup": "13to45",
+                "symptoms": ["Severe Head Pain", "Redness in Eye", "Nasal Congestion"],
+                "Medicine": "Sumatriptan"
+            },
+            {
+                "agegroup": "46to100",
+                "symptoms": ["Severe Head Pain", "Redness in Eye", "Nasal Congestion"],
+                "Medicine": "Sumatriptan"
+            }
+        ]
+    }],
+
+
+    "Gastritis": [{
+        "age": [
+            {
+                "agegroup": "1to12",
+                "symptoms": ["Stomach Pain", "Nausea", "Loss of Appetite"],
+                "Medicine": "Children's Antacids"
+            },
+            {
+                "agegroup": "13to45",
+                "symptoms": ["Stomach Pain", "Nausea", "Loss of Appetite"],
+                "Medicine": "Antacids or H2 Blockers"
+            },
+            {
+                "agegroup": "46to100",
+                "symptoms": ["Stomach Pain", "Nausea", "Loss of Appetite"],
+                "Medicine": "Proton Pump Inhibitors"
+            }
+        ]
+    }],
+
+    "Indigestion (Dyspepsia)": [{
+        "age": [
+            {
+                "agegroup": "1to12",
+                "symptoms": ["Stomach Discomfort", "Bloating", "Nausea"],
+                "Medicine": "Children's Antacids"
+            },
+            {
+                "agegroup": "13to45",
+                "symptoms": ["Stomach Discomfort", "Bloating", "Nausea"],
+                "Medicine": "Antacids or H2 Blockers"
+            },
+            {
+                "agegroup": "46to100",
+                "symptoms": ["Stomach Discomfort", "Bloating", "Nausea"],
+                "Medicine": "Proton Pump Inhibitors"
+            }
+        ]
+    }],
+
+    "Acid Reflux (GERD)": [{
+        "age": [
+            {
+                "agegroup": "1to12",
+                "symptoms": ["Heartburn", "Regurgitation", "Chest Pain"],
+                "Medicine": "Children's Antacids"
+            },
+            {
+                "agegroup": "13to45",
+                "symptoms": ["Heartburn", "Regurgitation", "Chest Pain"],
+                "Medicine": "H2 Blockers or PPIs"
+            },
+            {
+                "agegroup": "46to100",
+                "symptoms": ["Heartburn", "Regurgitation", "Chest Pain"],
+                "Medicine": "Proton Pump Inhibitors"
+            }
+        ]
+    }],
+
+    "Stomach Flu (Gastroenteritis)": [{
+        "age": [
+            {
+                "agegroup": "1to12",
+                "symptoms": ["Vomiting", "Diarrhea", "Stomach Cramps"],
+                "Medicine": "Oral Rehydration Solution"
+            },
+            {
+                "agegroup": "13to45",
+                "symptoms": ["Vomiting", "Diarrhea", "Stomach Cramps"],
+                "Medicine": "Anti-Nausea Medications"
+            },
+            {
+                "agegroup": "46to100",
+                "symptoms": ["Vomiting", "Diarrhea", "Stomach Cramps"],
+                "Medicine": "Anti-Nausea Medications"
+            }
+        ]
+    }],
+
+    "Constipation": [{
+        "age": [
+            {
+                "agegroup": "1to12",
+                "symptoms": ["Hard Stool", "Difficulty Passing Stool", "Abdominal Discomfort"],
+                "Medicine": "Children's Laxatives"
+            },
+            {
+                "agegroup": "13to45",
+                "symptoms": ["Hard Stool", "Difficulty Passing Stool", "Abdominal Discomfort"],
+                "Medicine": "Bulk-Forming Laxatives"
+            },
+            {
+                "agegroup": "46to100",
+                "symptoms": ["Hard Stool", "Difficulty Passing Stool", "Abdominal Discomfort"],
+                "Medicine": "Osmotic Laxatives"
+            }
+        ]
+    }],
+
+    "Diarrhea": [{
+        "age": [
+            {
+                "agegroup": "1to12",
+                "symptoms": ["Frequent Loose Stools", "Abdominal Cramps", "Nausea"],
+                "Medicine": "Oral Rehydration Solution"
+            },
+            {
+                "agegroup": "13to45",
+                "symptoms": ["Frequent Loose Stools", "Abdominal Cramps", "Nausea"],
+                "Medicine": "Loperamide"
+            },
+            {
+                "agegroup": "46to100",
+                "symptoms": ["Frequent Loose Stools", "Abdominal Cramps", "Nausea"],
+                "Medicine": "Loperamide"
+            }
+        ]
+    }],
+
+    "Hemorrhoids": [{
+        "age": [
+            {
+                "agegroup": "1to12",
+                "symptoms": ["Pain During Bowel Movements", "Bleeding", "Itching"],
+                "Medicine": "Consult Pediatrician"
+            },
+            {
+                "agegroup": "13to45",
+                "symptoms": ["Pain During Bowel Movements", "Bleeding", "Itching"],
+                "Medicine": "Over-the-Counter Creams"
+            },
+            {
+                "agegroup": "46to100",
+                "symptoms": ["Pain During Bowel Movements", "Bleeding", "Itching"],
+                "Medicine": "Over-the-Counter Creams"
+            }
+        ]
+    }],
+
+    "Irritable Bowel Syndrome (IBS)": [{
+        "age": [
+            {
+                "agegroup": "1to12",
+                "symptoms": ["Abdominal Pain", "Diarrhea", "Constipation"],
+                "Medicine": "Consult Pediatrician"
+            },
+            {
+                "agegroup": "13to45",
+                "symptoms": ["Abdominal Pain", "Diarrhea", "Constipation"],
+                "Medicine": "Antispasmodics or Fiber Supplements"
+            },
+            {
+                "agegroup": "46to100",
+                "symptoms": ["Abdominal Pain", "Diarrhea", "Constipation"],
+                "Medicine": "Antispasmodics or Fiber Supplements"
+            }
+        ]
+    }],
+
+    "Cold Sores (Herpes Labialis)": [{
+        "age": [
+            {
+                "agegroup": "1to12",
+                "symptoms": ["Painful Blisters on Lips", "Itching", "Burning Sensation"],
+                "Medicine": "Children's Antiviral Creams"
+            },
+            {
+                "agegroup": "13to45",
+                "symptoms": ["Painful Blisters on Lips", "Itching", "Burning Sensation"],
+                "Medicine": "Topical Antiviral Creams"
+            },
+            {
+                "agegroup": "46to100",
+                "symptoms": ["Painful Blisters on Lips", "Itching", "Burning Sensation"],
+                "Medicine": "Oral Antiviral Medications"
+            }
+        ]
+    }],
+
+"Canker Sores (Aphthous Ulcers)": [{
+    "age": [
+        {
+            "agegroup": "1to12",
+            "symptoms": ["Painful Mouth Ulcers", "Burning Sensation", "Difficulty Eating"],
+            "Medicine": "Children's Pain Relievers"
+        },
+        {
+            "agegroup": "13to45",
+            "symptoms": ["Painful Mouth Ulcers", "Burning Sensation", "Difficulty Eating"],
+            "Medicine": "Topical Analgesics"
+        },
+        {
+            "agegroup": "46to100",
+            "symptoms": ["Painful Mouth Ulcers", "Burning Sensation", "Difficulty Eating"],
+            "Medicine": "Topical Corticosteroids"
+        }
+    ]
+}],
+
+"Athlete’s Foot": [{
+    "age": [
+        {
+            "agegroup": "1to12",
+            "symptoms": ["Itching", "Redness", "Peeling Skin"],
+            "Medicine": "Children's Antifungal Creams"
+        },
+        {
+            "agegroup": "13to45",
+            "symptoms": ["Itching", "Redness", "Peeling Skin"],
+            "Medicine": "Over-the-Counter Antifungal Creams"
+        },
+        {
+            "agegroup": "46to100",
+            "symptoms": ["Itching", "Redness", "Peeling Skin"],
+            "Medicine": "Prescription Antifungal Creams"
+        }
+    ]
+}],
+
+"Jock Itch": [{
+    "age": [
+        {
+            "agegroup": "1to12",
+            "symptoms": ["Itching", "Red Rash", "Burning Sensation"],
+            "Medicine": "Children's Antifungal Creams"
+        },
+        {
+            "agegroup": "13to45",
+            "symptoms": ["Itching", "Red Rash", "Burning Sensation"],
+            "Medicine": "Over-the-Counter Antifungal Creams"
+        },
+        {
+            "agegroup": "46to100",
+            "symptoms": ["Itching", "Red Rash", "Burning Sensation"],
+            "Medicine": "Prescription Antifungal Creams"
+        }
+    ]
+}],
+
+"Ringworm": [{
+    "age": [
+        {
+            "agegroup": "1to12",
+            "symptoms": ["Circular Rash", "Itching", "Redness"],
+            "Medicine": "Children's Antifungal Creams"
+        },
+        {
+            "agegroup": "13to45",
+            "symptoms": ["Circular Rash", "Itching", "Redness"],
+            "Medicine": "Over-the-Counter Antifungal Creams"
+        },
+        {
+            "agegroup": "46to100",
+            "symptoms": ["Circular Rash", "Itching", "Redness"],
+            "Medicine": "Prescription Antifungal Creams"
+        }
+    ]
+}],
+
+"Warts": [{
+    "age": [
+        {
+            "agegroup": "1to12",
+            "symptoms": ["Small Growths on Skin", "Rough Texture", "Itching"],
+            "Medicine": "Children's Wart Removal Products"
+        },
+        {
+            "agegroup": "13to45",
+            "symptoms": ["Small Growths on Skin", "Rough Texture", "Itching"],
+            "Medicine": "Over-the-Counter Wart Removal Products"
+        },
+        {
+            "agegroup": "46to100",
+            "symptoms": ["Small Growths on Skin", "Rough Texture", "Itching"],
+            "Medicine": "Cryotherapy or Prescription Treatments"
+        }
+    ]
+}],
+
+"Acne": [{
+    "age": [
+        {
+            "agegroup": "1to12",
+            "symptoms": ["Pimples", "Blackheads", "Redness"],
+            "Medicine": "Children's Acne Treatments"
+        },
+        {
+            "agegroup": "13to45",
+            "symptoms": ["Pimples", "Blackheads", "Redness"],
+            "Medicine": "Topical Retinoids or Benzoyl Peroxide"
+        },
+        {
+            "agegroup": "46to100",
+            "symptoms": ["Pimples", "Blackheads", "Redness"],
+            "Medicine": "Oral Antibiotics or Topical Retinoids"
+        }
+    ]
+}],
+
+"Rosacea": [{
+    "age": [
+        {
+            "agegroup": "1to12",
+            "symptoms": ["Facial Redness", "Visible Blood Vessels", "Acne-like Bumps"],
+            "Medicine": "Consult Pediatrician"
+        },
+        {
+            "agegroup": "13to45",
+            "symptoms": ["Facial Redness", "Visible Blood Vessels", "Acne-like Bumps"],
+            "Medicine": "Topical Antibiotics or Retinoids"
+        },
+        {
+            "agegroup": "46to100",
+            "symptoms": ["Facial Redness", "Visible Blood Vessels", "Acne-like Bumps"],
+            "Medicine": "Oral Antibiotics or Topical Medications"
+        }
+    ]
+}],
+
+"Eczema (Atopic Dermatitis)": [{
+    "age": [
+        {
+            "agegroup": "1to12",
+            "symptoms": ["Dry Itchy Skin", "Red Rash", "Swelling"],
+            "Medicine": "Children's Moisturizers or Steroid Creams"
+        },
+        {
+            "agegroup": "13to45",
+            "symptoms": ["Dry Itchy Skin", "Red Rash", "Swelling"],
+            "Medicine": "Topical Steroid Creams or Moisturizers"
+        },
+        {
+            "agegroup": "46to100",
+            "symptoms": ["Dry Itchy Skin", "Red Rash", "Swelling"],
+            "Medicine": "Topical Steroids or Immunomodulators"
+        }
+    ]
+}],
+
+"Psoriasis": [{
+    "age": [
+        {
+            "agegroup": "1to12",
+            "symptoms": ["Scaly Patches on Skin", "Redness", "Itching"],
+            "Medicine": "Children's Topical Treatments"
+        },
+        {
+            "agegroup": "13to45",
+            "symptoms": ["Scaly Patches on Skin", "Redness", "Itching"],
+            "Medicine": "Topical Steroids or Vitamin D Analogues"
+        },
+        {
+            "agegroup": "46to100",
+            "symptoms": ["Scaly Patches on Skin", "Redness", "Itching"],
+            "Medicine": "Systemic Treatments or Biologics"
+        }
+    ]
+}],
+
+"Hives (Urticaria)": [{
+    "age": [
+        {
+            "agegroup": "1to12",
+            "symptoms": ["Itchy Welts on Skin", "Swelling", "Redness"],
+            "Medicine": "Children's Antihistamines"
+        },
+        {
+            "agegroup": "13to45",
+            "symptoms": ["Itchy Welts on Skin", "Swelling", "Redness"],
+            "Medicine": "Antihistamines"
+        },
+        {
+            "agegroup": "46to100",
+            "symptoms": ["Itchy Welts on Skin", "Swelling", "Redness"],
+            "Medicine": "Antihistamines or Corticosteroids"
+        }
+    ]
+}],
+
+"Shingles (Herpes Zoster)": [{
+    "age": [
+        {
+            "agegroup": "1to12",
+            "symptoms": ["Painful Rash", "Blisters", "Fever"],
+            "Medicine": "Consult Pediatrician"
+        },
+        {
+            "agegroup": "13to45",
+            "symptoms": ["Painful Rash", "Blisters", "Fever"],
+            "Medicine": "Antiviral Medications"
+        },
+        {
+            "agegroup": "46to100",
+            "symptoms": ["Painful Rash", "Blisters", "Fever"],
+            "Medicine": "Antiviral Medications"
+        }
+    ]
+}],
+
+"Hand, Foot, and Mouth Disease": [{
+    "age": [
+        {
+            "agegroup": "1to12",
+            "symptoms": ["Fever", "Rash on Hands and Feet", "Mouth Sores"],
+            "Medicine": "Fever Reducers and Pain Relievers"
+        },
+        {
+            "agegroup": "13to45",
+            "symptoms": ["Fever", "Rash on Hands and Feet", "Mouth Sores"],
+            "Medicine": "Fever Reducers and Pain Relievers"
+        },
+        {
+            "agegroup": "46to100",
+            "symptoms": ["Fever", "Rash on Hands and Feet", "Mouth Sores"],
+            "Medicine": "Fever Reducers and Pain Relievers"
+        }
+    ]
+}],
+
+"Impetigo": [{
+    "age": [
+        {
+            "agegroup": "1to12",
+            "symptoms": ["Honey-colored Crusts", "Red Sores", "Itching"],
+            "Medicine": "Children's Antibiotic Ointments"
+        },
+        {
+            "agegroup": "13to45",
+            "symptoms": ["Honey-colored Crusts", "Red Sores", "Itching"],
+            "Medicine": "Topical Antibiotics"
+        },
+        {
+            "agegroup": "46to100",
+            "symptoms": ["Honey-colored Crusts", "Red Sores", "Itching"],
+            "Medicine": "Oral Antibiotics"
+        }
+    ]
+}],
+
+"Scabies": [{
+    "age": [
+        {
+            "agegroup": "1to12",
+            "symptoms": ["Intense Itching", "Rash", "Sores"],
+            "Medicine": "Children's Scabies Treatments"
+        },
+        {
+            "agegroup": "13to45",
+            "symptoms": ["Intense Itching", "Rash", "Sores"],
+            "Medicine": "Topical Scabicides"
+        },
+        {
+            "agegroup": "46to100",
+            "symptoms": ["Intense Itching", "Rash", "Sores"],
+            "Medicine": "Topical Scabicides"
+        }
+    ]
+}],
+
+"Lice Infestation": [{
+    "age": [
+        {
+            "agegroup": "1to12",
+            "symptoms": ["Itchy Scalp", "Lice Eggs (Nits)", "Visible Lice"],
+            "Medicine": "Children's Lice Treatments"
+        },
+        {
+            "agegroup": "13to45",
+            "symptoms": ["Itchy Scalp", "Lice Eggs (Nits)", "Visible Lice"],
+            "Medicine": "Over-the-Counter Lice Treatments"
+        },
+        {
+            "agegroup": "46to100",
+            "symptoms": ["Itchy Scalp", "Lice Eggs (Nits)", "Visible Lice"],
+            "Medicine": "Prescription Lice Treatments"
+        }
+    ]
+}],
+
+"Yeast Infection (Candidiasis)": [{
+    "age": [
+        {
+            "agegroup": "1to12",
+            "symptoms": ["Itching", "Redness", "Discharge"],
+            "Medicine": "Children's Antifungal Creams"
+        },
+        {
+            "agegroup": "13to45",
+            "symptoms": ["Itching", "Redness", "Discharge"],
+            "Medicine": "Over-the-Counter Antifungal Treatments"
+        },
+        {
+            "agegroup": "46to100",
+            "symptoms": ["Itching", "Redness", "Discharge"],
+            "Medicine": "Oral or Topical Antifungals"
+        }
+    ]
+}],
+
+"Bacterial Vaginosis": [{
+    "age": [
+        {
+            "agegroup": "1to12",
+            "symptoms": ["Abnormal Vaginal Discharge", "Odor", "Itching"],
+            "Medicine": "Consult Pediatrician"
+        },
+        {
+            "agegroup": "13to45",
+            "symptoms": ["Abnormal Vaginal Discharge", "Odor", "Itching"],
+            "Medicine": "Antibiotic Medications"
+        },
+        {
+            "agegroup": "46to100",
+            "symptoms": ["Abnormal Vaginal Discharge", "Odor", "Itching"],
+            "Medicine": "Antibiotic Medications"
+        }
+    ]
+}],
+
+"Urinary Tract Infection (UTI)": [{
+    "age": [
+        {
+            "agegroup": "1to12",
+            "symptoms": ["Painful Urination", "Frequent Urination", "Abdominal Pain"],
+            "Medicine": "Children's Antibiotics"
+        },
+        {
+            "agegroup": "13to45",
+            "symptoms": ["Painful Urination", "Frequent Urination", "Abdominal Pain"],
+            "Medicine": "Antibiotics"
+        },
+        {
+            "agegroup": "46to100",
+            "symptoms": ["Painful Urination", "Frequent Urination", "Abdominal Pain"],
+            "Medicine": "Antibiotics"
+        }
+    ]
+}],
+
+"Bladder Infection (Cystitis)": [{
+    "age": [
+        {
+            "agegroup": "1to12",
+            "symptoms": ["Painful Urination", "Frequent Urination", "Lower Abdominal Pain"],
+            "Medicine": "Children's Antibiotics"
+        },
+        {
+            "agegroup": "13to45",
+            "symptoms": ["Painful Urination", "Frequent Urination", "Lower Abdominal Pain"],
+            "Medicine": "Antibiotics"
+        },
+        {
+            "agegroup": "46to100",
+            "symptoms": ["Painful Urination", "Frequent Urination", "Lower Abdominal Pain"],
+            "Medicine": "Antibiotics"
+        }
+    ]
+}],
+
+"Chronic Obstructive Pulmonary Disease (COPD)": [{
+    "age": [
+        {
+            "agegroup": "1to12",
+            "symptoms": ["Chronic Cough", "Shortness of Breath", "Wheezing"],
+            "Medicine": "Consult Pediatrician"
+        },
+        {
+            "agegroup": "13to45",
+            "symptoms": ["Chronic Cough", "Shortness of Breath", "Wheezing"],
+            "Medicine": "Bronchodilators and Inhaled Steroids"
+        },
+        {
+            "agegroup": "46to100",
+            "symptoms": ["Chronic Cough", "Shortness of Breath", "Wheezing"],
+            "Medicine": "Bronchodilators, Inhaled Steroids, and Oxygen Therapy"
+        }
+    ]
+}],
+
+
+"Laryngitis": [{
+    "age": [
+        {
+            "agegroup": "1to12",
+            "symptoms": ["Hoarseness", "Loss of Voice", "Sore Throat"],
+            "Medicine": "Consult Pediatrician for Treatment"
+        },
+        {
+            "agegroup": "13to45",
+            "symptoms": ["Hoarseness", "Loss of Voice", "Sore Throat"],
+            "Medicine": "Voice Rest and Anti-inflammatory Medications"
+        },
+        {
+            "agegroup": "46to100",
+            "symptoms": ["Hoarseness", "Loss of Voice", "Sore Throat"],
+            "Medicine": "Voice Rest and Anti-inflammatory Medications"
+        }
+    ]
+}],
+
+"Pharyngitis": [{
+    "age": [
+        {
+            "agegroup": "1to12",
+            "symptoms": ["Sore Throat", "Redness of Throat", "Difficulty Swallowing"],
+            "Medicine": "Children's Pain Relievers and Throat Lozenges"
+        },
+        {
+            "agegroup": "13to45",
+            "symptoms": ["Sore Throat", "Redness of Throat", "Difficulty Swallowing"],
+            "Medicine": "Pain Relievers and Gargles"
+        },
+        {
+            "agegroup": "46to100",
+            "symptoms": ["Sore Throat", "Redness of Throat", "Difficulty Swallowing"],
+            "Medicine": "Pain Relievers and Gargles"
+        }
+    ]
+}],
+
+"Whooping Cough (Pertussis)": [{
+    "age": [
+        {
+            "agegroup": "1to12",
+            "symptoms": ["Severe Coughing Fits", "Whooping Sound", "Vomiting After Coughing"],
+            "Medicine": "Antibiotics and Cough Suppressants"
+        },
+        {
+            "agegroup": "13to45",
+            "symptoms": ["Severe Coughing Fits", "Whooping Sound", "Vomiting After Coughing"],
+            "Medicine": "Antibiotics and Cough Medications"
+        },
+        {
+            "agegroup": "46to100",
+            "symptoms": ["Severe Coughing Fits", "Whooping Sound", "Vomiting After Coughing"],
+            "Medicine": "Antibiotics and Cough Medications"
+        }
+    ]
+}],
+
+"Tuberculosis (TB)": [{
+    "age": [
+        {
+            "agegroup": "1to12",
+            "symptoms": ["Persistent Cough", "Night Sweats", "Weight Loss"],
+            "Medicine": "Consult Pediatrician for TB Treatment"
+        },
+        {
+            "agegroup": "13to45",
+            "symptoms": ["Persistent Cough", "Night Sweats", "Weight Loss"],
+            "Medicine": "Antibiotics (Combination Therapy)"
+        },
+        {
+            "agegroup": "46to100",
+            "symptoms": ["Persistent Cough", "Night Sweats", "Weight Loss"],
+            "Medicine": "Antibiotics (Combination Therapy)"
+        }
+    ]
+}],
+
+"Malaria": [{
+    "age": [
+        {
+            "agegroup": "1to12",
+            "symptoms": ["Fever", "Chills", "Sweats"],
+            "Medicine": "Children's Antimalarial Medications"
+        },
+        {
+            "agegroup": "13to45",
+            "symptoms": ["Fever", "Chills", "Sweats"],
+            "Medicine": "Antimalarial Medications"
+        },
+        {
+            "agegroup": "46to100",
+            "symptoms": ["Fever", "Chills", "Sweats"],
+            "Medicine": "Antimalarial Medications"
+        }
+    ]
+}],
+
+"Dengue Fever": [{
+    "age": [
+        {
+            "agegroup": "1to12",
+            "symptoms": ["High Fever", "Severe Headache", "Joint Pain"],
+            "Medicine": "Consult Pediatrician for Management"
+        },
+        {
+            "agegroup": "13to45",
+            "symptoms": ["High Fever", "Severe Headache", "Joint Pain"],
+            "Medicine": "Pain Relievers and Fluids"
+        },
+        {
+            "agegroup": "46to100",
+            "symptoms": ["High Fever", "Severe Headache", "Joint Pain"],
+            "Medicine": "Pain Relievers and Fluids"
+        }
+    ]
+}],
+
+"Chikungunya": [{
+    "age": [
+        {
+            "agegroup": "1to12",
+            "symptoms": ["High Fever", "Severe Joint Pain", "Rash"],
+            "Medicine": "Consult Pediatrician for Symptom Relief"
+        },
+        {
+            "agegroup": "13to45",
+            "symptoms": ["High Fever", "Severe Joint Pain", "Rash"],
+            "Medicine": "Pain Relievers and Fluids"
+        },
+        {
+            "agegroup": "46to100",
+            "symptoms": ["High Fever", "Severe Joint Pain", "Rash"],
+            "Medicine": "Pain Relievers and Fluids"
+        }
+    ]
+}],
+
+"Typhoid Fever": [{
+    "age": [
+        {
+            "agegroup": "1to12",
+            "symptoms": ["High Fever", "Abdominal Pain", "Weakness"],
+            "Medicine": "Children's Antibiotics"
+        },
+        {
+            "agegroup": "13to45",
+            "symptoms": ["High Fever", "Abdominal Pain", "Weakness"],
+            "Medicine": "Antibiotics"
+        },
+        {
+            "agegroup": "46to100",
+            "symptoms": ["High Fever", "Abdominal Pain", "Weakness"],
+            "Medicine": "Antibiotics"
+        }
+    ]
+}],
+
+"Cholera": [{
+    "age": [
+        {
+            "agegroup": "1to12",
+            "symptoms": ["Severe Diarrhea", "Vomiting", "Dehydration"],
+            "Medicine": "Rehydration Solutions and Antibiotics"
+        },
+        {
+            "agegroup": "13to45",
+            "symptoms": ["Severe Diarrhea", "Vomiting", "Dehydration"],
+            "Medicine": "Rehydration Solutions and Antibiotics"
+        },
+        {
+            "agegroup": "46to100",
+            "symptoms": ["Severe Diarrhea", "Vomiting", "Dehydration"],
+            "Medicine": "Rehydration Solutions and Antibiotics"
+        }
+    ]
+}],
+
+"Hepatitis A": [{
+    "age": [
+        {
+            "agegroup": "1to12",
+            "symptoms": ["Jaundice", "Fatigue", "Abdominal Pain"],
+            "Medicine": "Supportive Care"
+        },
+        {
+            "agegroup": "13to45",
+            "symptoms": ["Jaundice", "Fatigue", "Abdominal Pain"],
+            "Medicine": "Supportive Care"
+        },
+        {
+            "agegroup": "46to100",
+            "symptoms": ["Jaundice", "Fatigue", "Abdominal Pain"],
+            "Medicine": "Supportive Care"
+        }
+    ]
+}],
+
+"Influenza (Flu)": [{
+    "age": [
+        {
+            "agegroup": "1to12",
+            "symptoms": ["Fever", "Cough", "Body Aches"],
+            "Medicine": "Children's Flu Medications and Rest"
+        },
+        {
+            "agegroup": "13to45",
+            "symptoms": ["Fever", "Cough", "Body Aches"],
+            "Medicine": "Antiviral Medications and Rest"
+        },
+        {
+            "agegroup": "46to100",
+            "symptoms": ["Fever", "Cough", "Body Aches"],
+            "Medicine": "Antiviral Medications and Rest"
+        }
+    ]
+}]
+
+
+}]}
